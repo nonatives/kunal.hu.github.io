@@ -2,28 +2,31 @@
 body{
     margin: 0;
     padding: 0;
-    background-color:rgb(166, 238, 238);
+    background-image: url(kunall.JPG);
+    background-repeat: no repeat;
+    background-position: center;
+    background-size: cover;
+    backdrop-filter:blur(5px);
     box-sizing: border-box;
     
 }
 .myimg{
-    width:5cm;
+    width:3cm;
     border-radius: 60%;
-    height: 5cm;
-    outline: solid black 1px;
+    height: 3cm;
+    outline: solid rgba(68, 67, 67, 0.438) 1px;
 }
-.container{
-    margin-top: 5%;
+.container-fluid{
+    margin-top:5%;
     display: flex;
     justify-content: center;
     max-width: max-content;
 }
 li{
     list-style-type:none;
-    margin: 20px;
+    margin: 15px;
     box-sizing: border-box;
-
-    display: block;
+    width:12cm;
 
     
 }
@@ -36,9 +39,10 @@ li{
     border-radius: 50px;
     background-color: white;
     font-family: sans-serif;
-    padding:10px 25% 10px 25%;
+    padding:10px 22% 10px 25%;
      font-size:larger;
      font-family: sans-serif;
+     overflow: hidden;
    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     }
     .fa-facebook{
@@ -71,7 +75,7 @@ li{
         border-radius: 50px;
         background-color: white;
         font-family: sans-serif;
-        padding:10px 22% 10px 25%;
+        padding:10px 20% 10px 24%;
          font-size:larger;
          font-family: sans-serif;
    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
@@ -93,7 +97,7 @@ li{
             border-radius: 50px;
             background-color: white;
             font-family: sans-serif;
-            padding:10px 24% 10px 25%;
+            padding:10px 21% 10px 25%;
              font-size:larger;
              font-family: sans-serif;
                 box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
@@ -115,13 +119,13 @@ li{
             border-radius: 50px;
             background-color: white;
             font-family: sans-serif;
-            padding:10px 30% 10px 25%;
+            padding:10px 26% 10px 25%;
              font-size:larger;
              font-family: sans-serif;
                 box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
         }
         .text4:hover{
-            background-color: rgba(0, 255, 255, 0.5);
+            background-color:rgba(128, 128, 128, 0.486);
         }
         .fa-linkedin{
             background-color: #0072b1;
@@ -136,7 +140,7 @@ li{
             border-radius: 50px;
             background-color: white;
             font-family: sans-serif;
-            padding:10px 26% 10px 25%;
+            padding:10px 22% 10px 25%;
              font-size:larger;
              font-family: sans-serif;
               box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
@@ -158,13 +162,16 @@ a{
     font-size: large;
        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
+.text6:hover{
+    background-color:rgba(128, 128, 128, 0.486);
+}
 .text6{
     text-align: center;
     color: black;
     border-radius: 50px;
     background-color: white;
     font-family: sans-serif;
-    padding:10px 28% 10px 25%;
+    padding:10px 25% 10px 25%;
      font-size:larger;
      font-family: sans-serif;
         box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
@@ -175,11 +182,10 @@ a{
 
  /* typewriter    */
 .lab{
-    color:black;
+    color:whitesmoke;
     font-family: sans-serif;
     text-align: center;
     cursor: none;
-    font:bold;
     overflow: hidden;
     /* border-right: .15em solid black; */
     /* text-shadow: 2px 1px white; */
@@ -204,8 +210,31 @@ a{
   }
   .emoji{
     
-      color:#48494B;
+      color:#2a2b2e;
+      background-color: rgba(255, 250, 205, 0.568);
+      font: bold;
+      outline: solid black 1px;
+        margin-left:5px;
   }
+.container{
+    max-width: fit-content;
+    text-align: center;
+}
+@media screen and (max-width:600px){
+    .body{
+        font-size: 14px;
+    }
+    .container{
+        width: 100%;
+    }
+    .container-fluid{
+        width: 50%;
+    }
+}
+
+    
+
+
 
 
 
