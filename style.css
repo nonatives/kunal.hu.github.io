@@ -3,7 +3,7 @@ body{
     margin: 0;
     padding: 0;
     background-image: url(kunall.JPG);
-    background-repeat: no repeat;
+    background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
     backdrop-filter:blur(5px);
@@ -219,14 +219,15 @@ a{
   }
 .container{
     max-width: fit-content;
-    text-align: center;
+    /* text-align: center; */
+    overflow: hidden;
 }
 @media screen and (max-width:600px){
     .body{
         font-size: 14px;
     }
     .container{
-        width: 100%;
+        width:100%;
     }
     .container-fluid{
         width: 50%;
