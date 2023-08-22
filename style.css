@@ -18,7 +18,7 @@ body{
     outline: solid rgba(68, 67, 67, 0.438) 1px;
 }
 .container-fluid{
-    margin-top:5%;
+    margin-top:2%;
     display: flex;
     justify-content: center;
     max-width: max-content;
