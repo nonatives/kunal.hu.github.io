@@ -1,16 +1,15 @@
-
+ 
 body{
     margin: 0;
     padding: 0;
-    background-image: url(kunall.JPG);
+    background-image: url(computer-program-coding-screen.jpg);
+    background-position:cezzzzzzzz;
+    height: auto;
     background-repeat: no-repeat;
-    background-position: center;
-    background-size:cover;
-    backdrop-filter:blur(3px);
-    box-sizing: border-box;
-    overflow: hidden;
-    
 }
+    
+    
+    
 .myimg{
     width:3cm;
     border-radius: 60%;
@@ -162,6 +161,7 @@ a{
     border-radius:50px;
     font-size: large;
        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+       
 }
 .text6:hover{
     background-color:rgba(128, 128, 128, 0.486);
@@ -176,9 +176,11 @@ a{
      font-size:larger;
      font-family: sans-serif;
         box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+        
     }
 .text5:hover{
     background-color: rgba(0, 255, 255, 0.5);
+    
 }
 
  /* typewriter    */
@@ -210,23 +212,27 @@ a{
     50% { border-color: rgba(255, 166, 0, 0) }
   }
   .by{
+    color: white;
+    text-align: center;
+    padding:10px;
+
+}
+.emoji{
+    color:#000;
     
-      color:#2a2b2e;
-      background-color: rgba(255, 250, 205, 0.568);
-      font: bold;
-      outline: solid black 1px;
-        margin-left:5px;
-       width: max-content;
-  }
+}
+
+  
 .container{
     max-width: fit-content;
     /* text-align: center; */
     overflow: hidden;
 }
-@media  screen and (max-width:600px) {
+@media  screen and (max-width:420px) {
     body {
       font-size:14px;
       width: 100%;
+      height: auto;
       box-sizing: border-box;
     }
 
@@ -245,3 +251,4 @@ a{
 
     
     
+
